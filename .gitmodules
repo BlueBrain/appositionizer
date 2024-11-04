@@ -1,0 +1,12 @@
+[submodule "deps/hpc-coding-conventions"]
+	path = deps/hpc-coding-conventions
+	url = https://github.com/BlueBrain/hpc-coding-conventions.git
+[submodule "deps/cli11"]
+	path = deps/cli11
+	url = https://github.com/CLIUtils/CLI11.git
+[submodule "deps/fmt"]
+	path = deps/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "deps/nlohmann-json"]
+	path = deps/nlohmann-json
+	url = https://github.com/nlohmann/json.git

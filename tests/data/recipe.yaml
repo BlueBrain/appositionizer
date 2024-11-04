@@ -1,0 +1,28 @@
+bouton_interval:
+  max_distance: 7.0
+  min_distance: 5.0
+  region_gap: 5.0
+structural_spine_lengths:
+- mtype: L1_SLAC
+  spine_length: 2.5
+- mtype: L23_PC
+  spine_length: 2.5
+- mtype: L23_MC
+  spine_length: 2.5
+- mtype: L23_PC
+  spine_length: 2.5
+- mtype: L23_MC
+  spine_length: 2.5
+- mtype: L4_PC
+  spine_length: 2.5
+- mtype: L4_MC
+  spine_length: 2.5
+- mtype: L5_TTPC1
+  spine_length: 2.5
+- mtype: L5_MC
+  spine_length: 2.5
+- mtype: L6_TPC_L1
+  spine_length: 2.5
+- mtype: L6_MC
+  spine_length: 2.5
+version: 1

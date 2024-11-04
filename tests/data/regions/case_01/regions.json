@@ -1,0 +1,477 @@
+[
+  {
+    "connections": [
+      {
+        "postSection": 38,
+        "postPercentage": 34,
+        "postSegment": 42,
+        "prePercentage": 205,
+        "preSegment": 26
+      }
+    ],
+    "count": 14,
+    "index": 0,
+    "postCell": 741,
+    "preSection": 5,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 31,
+    "segStart": 23
+  },
+  {
+    "connections": [
+      {
+        "postSection": 96,
+        "postPercentage": 237,
+        "postSegment": 12,
+        "prePercentage": 116,
+        "preSegment": 12
+      }
+    ],
+    "count": 6,
+    "index": 14,
+    "postCell": 741,
+    "preSection": 73,
+    "preEnd": 255,
+    "preCell": 996,
+    "preStart": 220,
+    "segEnd": 13,
+    "segStart": 10
+  },
+  {
+    "connections": [
+      {
+        "postSection": 96,
+        "postPercentage": 70,
+        "postSegment": 11,
+        "prePercentage": 159,
+        "preSegment": 0
+      }
+    ],
+    "count": 4,
+    "index": 20,
+    "postCell": 741,
+    "preSection": 74,
+    "preEnd": 52,
+    "preCell": 996,
+    "preStart": 0,
+    "segEnd": 1,
+    "segStart": 0
+  },
+  {
+    "connections": [
+      {
+        "postSection": 96,
+        "postPercentage": 155,
+        "postSegment": 10,
+        "prePercentage": 70,
+        "preSegment": 2
+      },
+      {
+        "postSection": 96,
+        "postPercentage": 231,
+        "postSegment": 7,
+        "prePercentage": 113,
+        "preSegment": 4
+      }
+    ],
+    "count": 11,
+    "index": 24,
+    "postCell": 741,
+    "preSection": 75,
+    "preEnd": 1,
+    "preCell": 996,
+    "preStart": 0,
+    "segEnd": 5,
+    "segStart": 0
+  },
+  {
+    "connections": [
+      {
+        "postSection": 137,
+        "postPercentage": 105,
+        "postSegment": 13,
+        "prePercentage": 2,
+        "preSegment": 19
+      }
+    ],
+    "count": 1,
+    "index": 35,
+    "postCell": 741,
+    "preSection": 378,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 0,
+    "segEnd": 19,
+    "segStart": 19
+  },
+  {
+    "connections": [
+      {
+        "postSection": 141,
+        "postPercentage": 72,
+        "postSegment": 12,
+        "prePercentage": 20,
+        "preSegment": 48
+      },
+      {
+        "postSection": 141,
+        "postPercentage": 146,
+        "postSegment": 8,
+        "prePercentage": 192,
+        "preSegment": 52
+      }
+    ],
+    "count": 13,
+    "index": 36,
+    "postCell": 741,
+    "preSection": 381,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 53,
+    "segStart": 45
+  },
+  {
+    "connections": [
+      {
+        "postSection": 148,
+        "postPercentage": 226,
+        "postSegment": 24,
+        "prePercentage": 100,
+        "preSegment": 54
+      }
+    ],
+    "count": 6,
+    "index": 49,
+    "postCell": 741,
+    "preSection": 383,
+    "preEnd": 164,
+    "preCell": 996,
+    "preStart": 43,
+    "segEnd": 55,
+    "segStart": 52
+  },
+  {
+    "connections": [
+      {
+        "postSection": 39,
+        "postPercentage": 70,
+        "postSegment": 22,
+        "prePercentage": 218,
+        "preSegment": 16
+      }
+    ],
+    "count": 2,
+    "index": 55,
+    "postCell": 741,
+    "preSection": 396,
+    "preEnd": 106,
+    "preCell": 996,
+    "preStart": 132,
+    "segEnd": 17,
+    "segStart": 16
+  },
+  {
+    "connections": [
+      {
+        "postSection": 81,
+        "postPercentage": 136,
+        "postSegment": 23,
+        "prePercentage": 51,
+        "preSegment": 34
+      }
+    ],
+    "count": 13,
+    "index": 57,
+    "postCell": 741,
+    "preSection": 396,
+    "preEnd": 228,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 38,
+    "segStart": 30
+  },
+  {
+    "connections": [
+      {
+        "postSection": 141,
+        "postPercentage": 192,
+        "postSegment": 20,
+        "prePercentage": 130,
+        "preSegment": 86
+      }
+    ],
+    "count": 3,
+    "index": 70,
+    "postCell": 741,
+    "preSection": 398,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 87,
+    "segStart": 85
+  },
+  {
+    "connections": [
+      {
+        "postSection": 95,
+        "postPercentage": 184,
+        "postSegment": 8,
+        "prePercentage": 69,
+        "preSegment": 12
+      }
+    ],
+    "count": 3,
+    "index": 73,
+    "postCell": 741,
+    "preSection": 405,
+    "preEnd": 18,
+    "preCell": 996,
+    "preStart": 221,
+    "segEnd": 13,
+    "segStart": 11
+  },
+  {
+    "connections": [
+      {
+        "postSection": 135,
+        "postPercentage": 128,
+        "postSegment": 11,
+        "prePercentage": 241,
+        "preSegment": 24
+      }
+    ],
+    "count": 8,
+    "index": 76,
+    "postCell": 741,
+    "preSection": 405,
+    "preEnd": 255,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 26,
+    "segStart": 21
+  },
+  {
+    "connections": [
+      {
+        "postSection": 97,
+        "postPercentage": 43,
+        "postSegment": 13,
+        "prePercentage": 152,
+        "preSegment": 30
+      },
+      {
+        "postSection": 98,
+        "postPercentage": 66,
+        "postSegment": 0,
+        "prePercentage": 219,
+        "preSegment": 37
+      }
+    ],
+    "count": 27,
+    "index": 84,
+    "postCell": 741,
+    "preSection": 414,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 233,
+    "segEnd": 38,
+    "segStart": 27
+  },
+  {
+    "connections": [
+      {
+        "postSection": 125,
+        "postPercentage": 150,
+        "postSegment": 7,
+        "prePercentage": 118,
+        "preSegment": 160
+      }
+    ],
+    "count": 9,
+    "index": 111,
+    "postCell": 741,
+    "preSection": 414,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 240,
+    "segEnd": 162,
+    "segStart": 158
+  },
+  {
+    "connections": [
+      {
+        "postSection": 79,
+        "postPercentage": 227,
+        "postSegment": 0,
+        "prePercentage": 103,
+        "preSegment": 4
+      }
+    ],
+    "count": 7,
+    "index": 120,
+    "postCell": 741,
+    "preSection": 415,
+    "preEnd": 145,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 6,
+    "segStart": 2
+  },
+  {
+    "connections": [
+      {
+        "postSection": 38,
+        "postPercentage": 213,
+        "postSegment": 18,
+        "prePercentage": 74,
+        "preSegment": 9
+      }
+    ],
+    "count": 6,
+    "index": 127,
+    "postCell": 741,
+    "preSection": 416,
+    "preEnd": 62,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 11,
+    "segStart": 6
+  },
+  {
+    "connections": [
+      {
+        "postSection": 76,
+        "postPercentage": 44,
+        "postSegment": 10,
+        "prePercentage": 139,
+        "preSegment": 4
+      }
+    ],
+    "count": 4,
+    "index": 133,
+    "postCell": 741,
+    "preSection": 417,
+    "preEnd": 195,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 5,
+    "segStart": 2
+  },
+  {
+    "connections": [
+      {
+        "postSection": 75,
+        "postPercentage": 20,
+        "postSegment": 30,
+        "prePercentage": 5,
+        "preSegment": 42
+      },
+      {
+        "postSection": 75,
+        "postPercentage": 122,
+        "postSegment": 28,
+        "prePercentage": 5,
+        "preSegment": 47
+      },
+      {
+        "postSection": 37,
+        "postPercentage": 154,
+        "postSegment": 9,
+        "prePercentage": 98,
+        "preSegment": 56
+      }
+    ],
+    "count": 26,
+    "index": 137,
+    "postCell": 741,
+    "preSection": 584,
+    "preEnd": 71,
+    "preCell": 996,
+    "preStart": 233,
+    "segEnd": 59,
+    "segStart": 39
+  },
+  {
+    "connections": [
+      {
+        "postSection": 48,
+        "postPercentage": 250,
+        "postSegment": 9,
+        "prePercentage": 26,
+        "preSegment": 74
+      }
+    ],
+    "count": 5,
+    "index": 163,
+    "postCell": 741,
+    "preSection": 584,
+    "preEnd": 209,
+    "preCell": 996,
+    "preStart": 72,
+    "segEnd": 74,
+    "segStart": 73
+  },
+  {
+    "connections": [
+      {
+        "postSection": 141,
+        "postPercentage": 241,
+        "postSegment": 19,
+        "prePercentage": 229,
+        "preSegment": 163
+      }
+    ],
+    "count": 8,
+    "index": 168,
+    "postCell": 741,
+    "preSection": 584,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 71,
+    "segEnd": 166,
+    "segStart": 162
+  },
+  {
+    "connections": [
+      {
+        "postSection": 136,
+        "postPercentage": 168,
+        "postSegment": 3,
+        "prePercentage": 203,
+        "preSegment": 203
+      }
+    ],
+    "count": 2,
+    "index": 176,
+    "postCell": 741,
+    "preSection": 584,
+    "preEnd": 72,
+    "preCell": 996,
+    "preStart": 72,
+    "segEnd": 204,
+    "segStart": 203
+  },
+  {
+    "connections": [
+      {
+        "postSection": 95,
+        "postPercentage": 23,
+        "postSegment": 7,
+        "prePercentage": 5,
+        "preSegment": 34
+      }
+    ],
+    "count": 8,
+    "index": 178,
+    "postCell": 741,
+    "preSection": 585,
+    "preEnd": 72,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 37,
+    "segStart": 31
+  }
+]

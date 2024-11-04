@@ -1,0 +1,14 @@
+*.bak
+.tox
+docs/build
+docs/source/_static/doxygen
+.idea/
+cmake-build-debug/
+tags
+spack-*
+.spack*
+.vscode
+.ccls-cache
+.bbp-project-venv
+build*
+deeps

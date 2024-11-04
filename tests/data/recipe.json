@@ -1,0 +1,695 @@
+{
+  "bouton_interval": {
+    "min_distance": 5.0,
+    "max_distance": 7.0,
+    "region_gap": 5.0
+  },
+  "bouton_distances": {},
+  "connection_rules": [
+    {
+      "src_mtype": "L1_DAC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.123,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L1_DLAC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.146,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L1_HAC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.13,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L1_NGC-DA",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.114,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L1_NGC-SA",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.055,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L1_SLAC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.052,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L23_BP",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.04,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L23_BTC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.065,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L23_ChC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 1.0,
+      "active_fraction": 1.0,
+      "cv_syns_connection": 10.0
+    },
+    {
+      "src_mtype": "L23_DBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.054,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L23_LBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.058,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L23_MC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.132,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L23_NBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.076,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L23_NGC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.065,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L23_PC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.075,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L23_SBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.056,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L4_BP",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.047,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L4_BTC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.055,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L4_ChC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 1.0,
+      "active_fraction": 1.0,
+      "cv_syns_connection": 10.0
+    },
+    {
+      "src_mtype": "L4_DBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.045,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L4_LBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.056,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L4_MC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.074,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L4_NBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.048,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L4_NGC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.034,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L4_PC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.06,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L4_SBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.056,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L4_SP",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.081,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L4_SS",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.089,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_BP",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.042,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_BTC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.044,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_ChC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 1.0,
+      "active_fraction": 1.0,
+      "cv_syns_connection": 10.0
+    },
+    {
+      "src_mtype": "L5_DBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.059,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_LBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.065,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_MC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.062,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_NBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.049,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_NGC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.037,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_SBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.048,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_STPC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.07,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_TTPC1",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.054,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_TTPC2",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.054,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_UTPC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.08,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L6_BP",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.051,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L6_BPC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.114,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L6_BTC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.041,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L6_ChC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 1.0,
+      "active_fraction": 1.0,
+      "cv_syns_connection": 10.0
+    },
+    {
+      "src_mtype": "L6_DBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.212,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L6_IPC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.17,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L6_LBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.072,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L6_MC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.077,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L6_NBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.089,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L6_NGC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.09,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L6_SBC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.061,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L6_TPC_L1",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.15,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L6_TPC_L4",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.15,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L6_UTPC",
+      "dst_mtype": "*",
+      "bouton_reduction_factor": 0.2,
+      "active_fraction": 0.5,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L23_BTC",
+      "dst_mtype": "L23_PC",
+      "bouton_reduction_factor": 0.065,
+      "cv_syns_connection": 0.3,
+      "mean_syns_connection": 15.0
+    },
+    {
+      "src_mtype": "L23_LBC",
+      "dst_mtype": "L23_PC",
+      "bouton_reduction_factor": 0.058,
+      "cv_syns_connection": 0.25,
+      "mean_syns_connection": 13.0
+    },
+    {
+      "src_mtype": "L23_MC",
+      "dst_mtype": "L23_PC",
+      "bouton_reduction_factor": 0.132,
+      "cv_syns_connection": 0.52,
+      "mean_syns_connection": 12.3
+    },
+    {
+      "src_mtype": "L23_NBC",
+      "dst_mtype": "L23_PC",
+      "bouton_reduction_factor": 0.076,
+      "cv_syns_connection": 0.35,
+      "mean_syns_connection": 14.1
+    },
+    {
+      "src_mtype": "L23_PC",
+      "dst_mtype": "L23_PC",
+      "bouton_reduction_factor": 0.075,
+      "mean_syns_connection": 4.0,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L4_BTC",
+      "dst_mtype": "L4_PC",
+      "bouton_reduction_factor": 0.055,
+      "cv_syns_connection": 0.61,
+      "mean_syns_connection": 17.0
+    },
+    {
+      "src_mtype": "L4_LBC",
+      "dst_mtype": "L4_PC",
+      "bouton_reduction_factor": 0.056,
+      "cv_syns_connection": 0.12,
+      "mean_syns_connection": 14.3
+    },
+    {
+      "src_mtype": "L4_SBC",
+      "dst_mtype": "L4_PC",
+      "bouton_reduction_factor": 0.056,
+      "cv_syns_connection": 0.6,
+      "mean_syns_connection": 18.7
+    },
+    {
+      "src_mtype": "L4_SP",
+      "dst_mtype": "L4_SP",
+      "bouton_reduction_factor": 0.081,
+      "mean_syns_connection": 3.4,
+      "cv_syns_connection": 0.3
+    },
+    {
+      "src_mtype": "L5_LBC",
+      "dst_mtype": "L5_TTPC1",
+      "bouton_reduction_factor": 0.065,
+      "cv_syns_connection": 0.25,
+      "mean_syns_connection": 13.0
+    },
+    {
+      "src_mtype": "L5_LBC",
+      "dst_mtype": "L5_TTPC2",
+      "bouton_reduction_factor": 0.065,
+      "cv_syns_connection": 0.25,
+      "mean_syns_connection": 13.0
+    },
+    {
+      "src_mtype": "L5_MC",
+      "dst_mtype": "L5_TTPC1",
+      "bouton_reduction_factor": 0.072,
+      "mean_syns_connection": 12.0,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_MC",
+      "dst_mtype": "L5_TTPC2",
+      "bouton_reduction_factor": 0.072,
+      "mean_syns_connection": 12.0,
+      "cv_syns_connection": 0.25
+    },
+    {
+      "src_mtype": "L5_STPC",
+      "dst_mtype": "L5_STPC",
+      "bouton_reduction_factor": 0.07,
+      "cv_syns_connection": 0.25,
+      "mean_syns_connection": 4.0
+    },
+    {
+      "src_mtype": "L5_TTPC1",
+      "dst_mtype": "L5_MC",
+      "bouton_reduction_factor": 0.06,
+      "cv_syns_connection": 0.25,
+      "mean_syns_connection": 8.6
+    },
+    {
+      "src_mtype": "L5_TTPC2",
+      "dst_mtype": "L5_MC",
+      "bouton_reduction_factor": 0.06,
+      "cv_syns_connection": 0.25,
+      "mean_syns_connection": 8.6
+    },
+    {
+      "src_mtype": "L5_TTPC1",
+      "dst_mtype": "L5_TTPC1",
+      "bouton_reduction_factor": 0.06,
+      "cv_syns_connection": 0.25,
+      "mean_syns_connection": 5.5
+    },
+    {
+      "src_mtype": "L5_TTPC1",
+      "dst_mtype": "L5_TTPC2",
+      "bouton_reduction_factor": 0.06,
+      "cv_syns_connection": 0.25,
+      "mean_syns_connection": 5.5
+    },
+    {
+      "src_mtype": "L5_TTPC2",
+      "dst_mtype": "L5_TTPC1",
+      "bouton_reduction_factor": 0.06,
+      "cv_syns_connection": 0.25,
+      "mean_syns_connection": 5.5
+    },
+    {
+      "src_mtype": "L5_TTPC2",
+      "dst_mtype": "L5_TTPC2",
+      "bouton_reduction_factor": 0.06,
+      "cv_syns_connection": 0.25,
+      "mean_syns_connection": 5.5
+    }
+  ],
+  "gap_junction_properties": {},
+  "touch_rules": [
+    {
+      "src_mtype": "L*_MC",
+      "dst_mtype": "*",
+      "afferent_section_type": "dendrite"
+    },
+    {
+      "src_mtype": "L1_*",
+      "dst_mtype": "*",
+      "afferent_section_type": "dendrite"
+    },
+    {
+      "src_mtype": "*PC",
+      "dst_mtype": "*",
+      "afferent_section_type": "soma"
+    },
+    {
+      "src_mtype": "*PC",
+      "dst_mtype": "*",
+      "afferent_section_type": "dendrite"
+    },
+    {
+      "src_mtype": "L5_TTPC*",
+      "dst_mtype": "*",
+      "afferent_section_type": "soma"
+    },
+    {
+      "src_mtype": "L5_TTPC*",
+      "dst_mtype": "*",
+      "afferent_section_type": "dendrite"
+    },
+    {
+      "src_mtype": "L6_TPC_L*",
+      "dst_mtype": "*",
+      "afferent_section_type": "soma"
+    },
+    {
+      "src_mtype": "L6_TPC_L*",
+      "dst_mtype": "*",
+      "afferent_section_type": "dendrite"
+    },
+    {
+      "src_mtype": "L*_MC",
+      "dst_mtype": "L1_*",
+      "afferent_section_type": "soma"
+    },
+    {
+      "src_mtype": "L*_MC",
+      "dst_mtype": "L*_MC",
+      "afferent_section_type": "soma"
+    }
+  ],
+  "seed": 4236279,
+  "structural_spine_lengths": [
+    {
+      "mtype": "L1_SLAC",
+      "spine_length": 2.5
+    },
+    {
+      "mtype": "L23_PC",
+      "spine_length": 2.5
+    },
+    {
+      "mtype": "L23_MC",
+      "spine_length": 2.5
+    },
+    {
+      "mtype": "L23_PC",
+      "spine_length": 2.5
+    },
+    {
+      "mtype": "L23_MC",
+      "spine_length": 2.5
+    },
+    {
+      "mtype": "L4_PC",
+      "spine_length": 2.5
+    },
+    {
+      "mtype": "L4_MC",
+      "spine_length": 2.5
+    },
+    {
+      "mtype": "L5_TTPC1",
+      "spine_length": 2.5
+    },
+    {
+      "mtype": "L5_MC",
+      "spine_length": 2.5
+    },
+    {
+      "mtype": "L6_TPC_L1",
+      "spine_length": 2.5
+    },
+    {
+      "mtype": "L6_MC",
+      "spine_length": 2.5
+    }
+  ],
+  "synapse_properties": {
+    "rules": [
+      {
+        "src_synapse_class": "EXC",
+        "dst_synapse_class": "EXC",
+        "class": "E2",
+        "axonal_conduction_velocity": 0.00333
+      },
+      {
+        "src_synapse_class": "INH",
+        "dst_synapse_class": "INH",
+        "class": "I2",
+        "neural_transmitter_release_delay": 0.4,
+        "axonal_conduction_velocity": 0.00333
+      },
+      {
+        "src_synapse_class": "EXC",
+        "dst_synapse_class": "INH",
+        "class": "E2",
+        "axonal_conduction_velocity": 0.00333
+      },
+      {
+        "src_synapse_class": "INH",
+        "dst_synapse_class": "EXC",
+        "class": "I2",
+        "axonal_conduction_velocity": 0.00333
+      }
+    ],
+    "classes": [
+      {
+        "class": "I2",
+        "conductance_mu": 0.33,
+        "conductance_sd": 0.28,
+        "decay_time_mu": 8.3,
+        "decay_time_sd": 2.2,
+        "u_syn_mu": 0.25,
+        "u_syn_sd": 0.13,
+        "depression_time_mu": 706.0,
+        "depression_time_sd": 405.0,
+        "facilitation_time_mu": 21.0,
+        "facilitation_time_sd": 9.0,
+        "n_rrp_vesicles_mu": 0.0
+      },
+      {
+        "class": "E2",
+        "conductance_mu": 0.3,
+        "conductance_sd": 0.2,
+        "decay_time_mu": 1.74,
+        "decay_time_sd": 0.18,
+        "u_syn_mu": 0.5,
+        "u_syn_sd": 0.02,
+        "depression_time_mu": 671.0,
+        "depression_time_sd": 17.0,
+        "facilitation_time_mu": 17.0,
+        "facilitation_time_sd": 5.0,
+        "n_rrp_vesicles_mu": 1.0
+      }
+    ]
+  },
+  "version": 1
+}

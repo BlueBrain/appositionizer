@@ -1,0 +1,520 @@
+[
+  {
+    "connections": [
+      {
+        "postSection": 135,
+        "postPercentage": 161,
+        "postSegment": 13,
+        "prePercentage": 54,
+        "preSegment": 10
+      }
+    ],
+    "count": 10,
+    "index": 0,
+    "length": 5.184269905090332,
+    "postCell": 918,
+    "preSection": 10,
+    "preEnd": 79,
+    "preCell": 996,
+    "preStart": 79,
+    "segEnd": 15,
+    "segStart": 6
+  },
+  {
+    "connections": [
+      {
+        "postSection": 126,
+        "postPercentage": 4,
+        "postSegment": 16,
+        "prePercentage": 232,
+        "preSegment": 50
+      }
+    ],
+    "count": 3,
+    "index": 10,
+    "length": 1.913077473640442,
+    "postCell": 918,
+    "preSection": 36,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 43,
+    "segEnd": 52,
+    "segStart": 50
+  },
+  {
+    "connections": [
+      {
+        "postSection": 92,
+        "postPercentage": 213,
+        "postSegment": 2,
+        "prePercentage": 251,
+        "preSegment": 5
+      },
+      {
+        "postSection": 137,
+        "postPercentage": 89,
+        "postSegment": 0,
+        "prePercentage": 5,
+        "preSegment": 10
+      },
+      {
+        "postSection": 91,
+        "postPercentage": 4,
+        "postSegment": 2,
+        "prePercentage": 254,
+        "preSegment": 13
+      },
+      {
+        "postSection": 91,
+        "postPercentage": 3,
+        "postSegment": 0,
+        "prePercentage": 20,
+        "preSegment": 17
+      },
+      {
+        "postSection": 90,
+        "postPercentage": 240,
+        "postSegment": 11,
+        "prePercentage": 82,
+        "preSegment": 19
+      }
+    ],
+    "count": 31,
+    "index": 13,
+    "length": 26.234683990478516,
+    "postCell": 918,
+    "preSection": 418,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 69,
+    "segEnd": 20,
+    "segStart": 4
+  },
+  {
+    "connections": [
+      {
+        "postSection": 48,
+        "postPercentage": 38,
+        "postSegment": 22,
+        "prePercentage": 253,
+        "preSegment": 6
+      }
+    ],
+    "count": 2,
+    "index": 44,
+    "length": 0.05131319910287857,
+    "postCell": 918,
+    "preSection": 424,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 7,
+    "segStart": 6
+  },
+  {
+    "connections": [
+      {
+        "postSection": 77,
+        "postPercentage": 121,
+        "postSegment": 14,
+        "prePercentage": 72,
+        "preSegment": 19
+      }
+    ],
+    "count": 3,
+    "index": 46,
+    "length": 3.3426284790039063,
+    "postCell": 918,
+    "preSection": 424,
+    "preEnd": 106,
+    "preCell": 996,
+    "preStart": 65,
+    "segEnd": 20,
+    "segStart": 18
+  },
+  {
+    "connections": [
+      {
+        "postSection": 76,
+        "postPercentage": 72,
+        "postSegment": 33,
+        "prePercentage": 29,
+        "preSegment": 32
+      }
+    ],
+    "count": 13,
+    "index": 49,
+    "length": 8.448647499084473,
+    "postCell": 918,
+    "preSection": 424,
+    "preEnd": 143,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 34,
+    "segStart": 30
+  },
+  {
+    "connections": [
+      {
+        "postSection": 148,
+        "postPercentage": 24,
+        "postSegment": 19,
+        "prePercentage": 143,
+        "preSegment": 51
+      }
+    ],
+    "count": 4,
+    "index": 62,
+    "length": 4.021324157714844,
+    "postCell": 918,
+    "preSection": 437,
+    "preEnd": 141,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 52,
+    "segStart": 49
+  },
+  {
+    "connections": [
+      {
+        "postSection": 145,
+        "postPercentage": 240,
+        "postSegment": 6,
+        "prePercentage": 72,
+        "preSegment": 30
+      }
+    ],
+    "count": 4,
+    "index": 66,
+    "length": 2.597031593322754,
+    "postCell": 918,
+    "preSection": 469,
+    "preEnd": 1,
+    "preCell": 996,
+    "preStart": 220,
+    "segEnd": 31,
+    "segStart": 29
+  },
+  {
+    "connections": [
+      {
+        "postSection": 148,
+        "postPercentage": 39,
+        "postSegment": 14,
+        "prePercentage": 5,
+        "preSegment": 46
+      }
+    ],
+    "count": 6,
+    "index": 70,
+    "length": 2.6120193004608154,
+    "postCell": 918,
+    "preSection": 470,
+    "preEnd": 255,
+    "preCell": 996,
+    "preStart": 232,
+    "segEnd": 49,
+    "segStart": 44
+  },
+  {
+    "connections": [
+      {
+        "postSection": 148,
+        "postPercentage": 22,
+        "postSegment": 14,
+        "prePercentage": 197,
+        "preSegment": 0
+      }
+    ],
+    "count": 5,
+    "index": 76,
+    "length": 1.6970694065093994,
+    "postCell": 918,
+    "preSection": 471,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 0,
+    "segEnd": 2,
+    "segStart": 0
+  },
+  {
+    "connections": [
+      {
+        "postSection": 34,
+        "postPercentage": 159,
+        "postSegment": 25,
+        "prePercentage": 47,
+        "preSegment": 9
+      },
+      {
+        "postSection": 34,
+        "postPercentage": 232,
+        "postSegment": 28,
+        "prePercentage": 5,
+        "preSegment": 13
+      }
+    ],
+    "count": 15,
+    "index": 81,
+    "length": 12.904915809631348,
+    "postCell": 918,
+    "preSection": 487,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 232,
+    "segEnd": 16,
+    "segStart": 5
+  },
+  {
+    "connections": [
+      {
+        "postSection": 31,
+        "postPercentage": 121,
+        "postSegment": 48,
+        "prePercentage": 230,
+        "preSegment": 28
+      }
+    ],
+    "count": 1,
+    "index": 96,
+    "length": 0.0317060612142086,
+    "postCell": 918,
+    "preSection": 488,
+    "preEnd": 233,
+    "preCell": 996,
+    "preStart": 227,
+    "segEnd": 28,
+    "segStart": 28
+  },
+  {
+    "connections": [
+      {
+        "postSection": 38,
+        "postPercentage": 121,
+        "postSegment": 56,
+        "prePercentage": 188,
+        "preSegment": 0
+      }
+    ],
+    "count": 3,
+    "index": 97,
+    "length": 2.4677300453186035,
+    "postCell": 918,
+    "preSection": 511,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 0,
+    "segEnd": 2,
+    "segStart": 0
+  },
+  {
+    "connections": [
+      {
+        "postSection": 38,
+        "postPercentage": 42,
+        "postSegment": 61,
+        "prePercentage": 5,
+        "preSegment": 3
+      },
+      {
+        "postSection": 38,
+        "postPercentage": 218,
+        "postSegment": 67,
+        "prePercentage": 187,
+        "preSegment": 10
+      }
+    ],
+    "count": 14,
+    "index": 100,
+    "length": 10.018325805664063,
+    "postCell": 918,
+    "preSection": 512,
+    "preEnd": 220,
+    "preCell": 996,
+    "preStart": 232,
+    "segEnd": 10,
+    "segStart": 0
+  },
+  {
+    "connections": [
+      {
+        "postSection": 148,
+        "postPercentage": 81,
+        "postSegment": 14,
+        "prePercentage": 162,
+        "preSegment": 0
+      }
+    ],
+    "count": 3,
+    "index": 114,
+    "length": 2.092712163925171,
+    "postCell": 918,
+    "preSection": 547,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 0,
+    "segEnd": 2,
+    "segStart": 0
+  },
+  {
+    "connections": [
+      {
+        "postSection": 137,
+        "postPercentage": 99,
+        "postSegment": 28,
+        "prePercentage": 122,
+        "preSegment": 42
+      }
+    ],
+    "count": 2,
+    "index": 117,
+    "length": 0.25441423058509827,
+    "postCell": 918,
+    "preSection": 565,
+    "preEnd": 255,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 42,
+    "segStart": 41
+  },
+  {
+    "connections": [
+      {
+        "postSection": 137,
+        "postPercentage": 103,
+        "postSegment": 28,
+        "prePercentage": 2,
+        "preSegment": 0
+      }
+    ],
+    "count": 1,
+    "index": 119,
+    "length": 0.015017353929579258,
+    "postCell": 918,
+    "preSection": 566,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 0,
+    "segEnd": 0,
+    "segStart": 0
+  },
+  {
+    "connections": [
+      {
+        "postSection": 137,
+        "postPercentage": 107,
+        "postSegment": 28,
+        "prePercentage": 185,
+        "preSegment": 0
+      }
+    ],
+    "count": 2,
+    "index": 120,
+    "length": 1.2769314050674438,
+    "postCell": 918,
+    "preSection": 567,
+    "preEnd": 72,
+    "preCell": 996,
+    "preStart": 0,
+    "segEnd": 1,
+    "segStart": 0
+  },
+  {
+    "connections": [
+      {
+        "postSection": 141,
+        "postPercentage": 248,
+        "postSegment": 42,
+        "prePercentage": 211,
+        "preSegment": 28
+      }
+    ],
+    "count": 12,
+    "index": 122,
+    "length": 3.8029978275299072,
+    "postCell": 918,
+    "preSection": 569,
+    "preEnd": 255,
+    "preCell": 996,
+    "preStart": 249,
+    "segEnd": 32,
+    "segStart": 24
+  },
+  {
+    "connections": [
+      {
+        "postSection": 141,
+        "postPercentage": 19,
+        "postSegment": 43,
+        "prePercentage": 130,
+        "preSegment": 0
+      }
+    ],
+    "count": 2,
+    "index": 134,
+    "length": 0.5516471266746521,
+    "postCell": 918,
+    "preSection": 570,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 0,
+    "segEnd": 1,
+    "segStart": 0
+  },
+  {
+    "connections": [
+      {
+        "postSection": 141,
+        "postPercentage": 12,
+        "postSegment": 43,
+        "prePercentage": 168,
+        "preSegment": 0
+      }
+    ],
+    "count": 3,
+    "index": 136,
+    "length": 2.329474449157715,
+    "postCell": 918,
+    "preSection": 571,
+    "preEnd": 5,
+    "preCell": 996,
+    "preStart": 0,
+    "segEnd": 2,
+    "segStart": 0
+  },
+  {
+    "connections": [
+      {
+        "postSection": 97,
+        "postPercentage": 122,
+        "postSegment": 4,
+        "prePercentage": 106,
+        "preSegment": 126
+      },
+      {
+        "postSection": 97,
+        "postPercentage": 74,
+        "postSegment": 7,
+        "prePercentage": 5,
+        "preSegment": 132
+      },
+      {
+        "postSection": 97,
+        "postPercentage": 23,
+        "postSegment": 11,
+        "prePercentage": 17,
+        "preSegment": 138
+      }
+    ],
+    "count": 24,
+    "index": 139,
+    "length": 14.19537353515625,
+    "postCell": 918,
+    "preSection": 583,
+    "preEnd": 71,
+    "preCell": 996,
+    "preStart": 240,
+    "segEnd": 138,
+    "segStart": 123
+  }
+]

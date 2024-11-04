@@ -1,0 +1,16 @@
+body {
+    background-color: #CCC;
+    color: black;
+}
+
+div.contents {
+    min-width: 50em;
+    max-width: 70em;
+    margin: auto !important;
+    padding: 2em;
+    background-color: white;
+}
+
+#titlearea {
+    background-color: white;
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "connections": [
+      {
+        "postSection": 108,
+        "postPercentage": 134,
+        "postSegment": 24,
+        "prePercentage": 54,
+        "preSegment": 29
+      }
+    ],
+    "count": 6,
+    "index": 0,
+    "length": 7.571352958679199,
+    "postCell": 741,
+    "preSection": 33,
+    "preEnd": 142,
+    "preCell": 75,
+    "preStart": 250,
+    "segEnd": 29,
+    "segStart": 28
+  }
+]

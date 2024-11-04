@@ -1,0 +1,3 @@
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+export MPI_OPENMP_INTEROP=Yes
+export APPO_MODERN="--modern"

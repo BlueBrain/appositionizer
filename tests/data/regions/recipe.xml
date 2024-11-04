@@ -1,0 +1,61 @@
+<blueColumn>
+    <InterBoutonInterval minDistance="5.0" maxDistance="7.0" regionGap="5.0"/> 
+    <CellTypes totalCells="1000" miniColumns="10" IntExtendedMinicolumnRadious="23">
+        <Layer id="1" percentage="2.0">
+            <StructuralType id="L1_SLAC" percentage="100" sigma="25" exclusionRadius="6.0" mClass="INT" sClass="INH" spineLength="2.5">
+                <ElectroType id="cACint" percentage="100" />
+            </StructuralType>
+        </Layer>
+        <Layer id="2" percentage="13.0">
+            <StructuralType id="L23_PC" percentage="50" sigma="20" exclusionRadius="6.0" mClass="PYR" sClass="EXC" spineLength="2.5">
+                <ElectroType id="cADpyr" percentage="100" />
+            </StructuralType>
+            <StructuralType id="L23_MC" percentage="50" sigma="25" exclusionRadius="6.0" mClass="INT" sClass="INH" spineLength="2.5">
+                <ElectroType id="cACint" percentage="100" />
+            </StructuralType>
+        </Layer>
+        <Layer id="3" percentage="15.0">
+            <StructuralType id="L23_PC" percentage="70" sigma="20" exclusionRadius="6.0" mClass="PYR" sClass="EXC" spineLength="2.5">
+                <ElectroType id="cADpyr" percentage="100" />
+            </StructuralType>
+            <StructuralType id="L23_MC" percentage="30" sigma="25" exclusionRadius="6.0" mClass="INT" sClass="INH" spineLength="2.5">
+                <ElectroType id="cACint" percentage="100" />
+            </StructuralType>
+        </Layer>
+        <Layer id="4" percentage="20">
+            <StructuralType id="L4_PC" percentage="42.0" sigma="20" exclusionRadius="6.0" mClass="PYR" sClass="EXC" spineLength="2.5">
+                <ElectroType id="cADpyr" percentage="100" />
+            </StructuralType>
+            <StructuralType id="L4_MC" percentage="58" sigma="25" exclusionRadius="6.0" mClass="INT" sClass="INH" spineLength="2.5">
+                <ElectroType id="cACint" percentage="100" />
+            </StructuralType>
+        </Layer>
+        <Layer id="5" percentage="20">
+            <StructuralType id="L5_TTPC1" percentage="75" sigma="20" exclusionRadius="6.0" mClass="PYR" sClass="EXC" spineLength="2.5">
+                <ElectroType id="cADpyr" percentage="100" />
+            </StructuralType>
+            <StructuralType id="L5_MC" percentage="25" sigma="25" exclusionRadius="6.0" mClass="INT" sClass="INH" spineLength="2.5">
+                <ElectroType id="cACint" percentage="100" />
+            </StructuralType>
+        </Layer>
+        <Layer id="6" percentage="30">
+            <StructuralType id="L6_TPC_L1" percentage="80" sigma="20" exclusionRadius="6.0" mClass="PYR" sClass="EXC" spineLength="2.5">
+                <ElectroType id="cADpyr" percentage="100" />
+            </StructuralType>
+            <StructuralType id="L6_MC" percentage="20" sigma="25" exclusionRadius="6.0" mClass="INT" sClass="INH" spineLength="2.5">
+                <ElectroType id="cACint" percentage="100" />
+            </StructuralType>
+        </Layer>
+    </CellTypes>
+
+    <column id="hexagon" x="78.08958130848" z="78.08958130848">
+        <!-- <latticeVector id="a1" x="110.00" z="0.0" />
+        <latticeVector id="a2" x="-115.46" z="110.00" />  -->
+        <layer id="1" thickness="159.0134692" />
+        <layer id="2" thickness="143.4691697" />
+        <layer id="3" thickness="340.2280792" />
+        <layer id="4" thickness="182.7530716" />
+        <layer id="5" thickness="506.2024000" />
+        <layer id="6" thickness="674.6820627" />
+    </column>
+</blueColumn>

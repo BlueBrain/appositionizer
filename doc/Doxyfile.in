@@ -1,0 +1,29 @@
+PROJECT_NAME           = "@PROJECT_NAME@"
+PROJECT_NUMBER         = "@PROJECT_VERSION@"
+PROJECT_BRIEF          =
+
+INPUT                  = developer_guide/mainpage.md \
+                         developer_guide/build_instructions.md \
+                         developer_guide/code_quality.md \
+                         developer_guide/overview.md \
+                         ../appositionizer/
+
+IMAGE_PATH             = source/_static
+HTML_OUTPUT            = source/_static/doxygen
+HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css
+LAYOUT_FILE            = DoxygenLayout.xml
+
+GENERATE_TREEVIEW      = YES
+GENERATE_LATEX         = NO
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_PRIV_VIRTUAL   = YES
+EXTRACT_STATIC         = YES
+EXTRACT_ANON_NSPACES   = YES
+
+EXTENSION_MAPPING      = tcc=C++
+FILE_PATTERNS          = *.c *.cc *.C *.cxx *.cpp *.h *.hxx *.hpp *.tcc
+
+RECURSIVE              = YES
+SOURCE_BROWSER         = YES
