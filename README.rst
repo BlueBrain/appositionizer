@@ -1,3 +1,6 @@
+.. image:: doc/source/_static/banner.jpg
+   :alt: A nice banner for appositionizer
+
 appositionizer
 =============
 
