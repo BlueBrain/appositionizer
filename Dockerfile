@@ -5,10 +5,8 @@ RUN apt-get update && apt-get install -y \
  catch2 \
  cmake \
  git \
- libeigen3-dev \
- libhdf5-openmpi-dev \
+ libhdf5-mpich-dev \
  librandom123-dev \
- librange-v3-dev \
  libtbb-dev \
  libyaml-cpp-dev \
  ninja-build \
@@ -27,10 +25,11 @@ RUN git clone --recursive --shallow-submodules --depth=1 --single-branch https:/
  && cmake --install /tmp/libsonata/build \
  && rm -rf /tmp/libsonata
 
-COPY . /tmp/appositionizer
-WORKDIR /tmp/appositionizer
+RUN mkdir -p /tmp/appo
+COPY . /tmp/appo/src
+WORKDIR /tmp/appo/src
 
-RUN cmake -B /tmp/appo/build -S . -G Ninja -DCMAKE_INSTALL_PREFIX=/opt/appo -DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON \
+RUN cmake -B /tmp/appo/build -S . -G Ninja -DCMAKE_INSTALL_PREFIX=/opt/appo -DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON -DEXTLIB_FROM_SUBMODULES:BOOL=ON \
  && cmake --build /tmp/appo/build \
  && cmake --install /tmp/appo/build \
  && (cd /tmp/appo/build  && ctest -VV --test-dir=/tmp/appo/build) \
@@ -39,15 +38,14 @@ RUN cmake -B /tmp/appo/build -S . -G Ninja -DCMAKE_INSTALL_PREFIX=/opt/appo -DCM
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y \
- libhdf5-openmpi-103-1t64 \
- libopenmpi-dev \
+ libhdf5-mpich-103-1t64 \
  libtbb12 \
  libyaml-cpp0.8 \
- openmpi-bin \
+ mpich \
  && rm -rf /var/lib/apt/lists/*
 
 COPY --from=builder /opt/appo/bin /opt/appo/bin
 RUN mkdir -p /opt/appo/lib
 COPY --from=builder /opt/appo/lib/*.so* /opt/appo/lib/
 
-ENTRYPOINT ["/opt/appo/bin/appositionizer"]
+ENV PATH="$PATH:/opt/appo/bin"
