@@ -26,6 +26,8 @@ set_property(DIRECTORY APPEND PROPERTY
  CMAKE_CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/tools/update_cmake.sh"
 )
 
+option(EXTLIB_FROM_SUBMODULES "Use Git submodules for header-only dependencies" OFF)
+
 option(ENABLE_DEBUG "Enable verbose debugging" OFF)
 option(ENABLE_CALIPER "Enables profiling with Caliper" OFF)
 option(ENABLE_BENCHMARKS "Enables building benchmarks" OFF)
@@ -44,24 +46,26 @@ include("${CMAKE_CURRENT_SOURCE_DIR}/CMake/warnings.cmake")
 include(ReleaseDebugAutoFlags)
 include(FindPkgConfig)
 
-# Find all dependencies
-find_package(Eigen3 REQUIRED NO_MODULE)
-find_package(fmt)
-if(NOT fmt_FOUND)
-  add_subdirectory(deps/fmt)
-endif()
 find_package(MorphIO REQUIRED)
 find_package(MPI REQUIRED)
 find_package(sonata REQUIRED)
 find_package(yaml-cpp REQUIRED)
-find_package(Range-v3 REQUIRED)
-find_package(nlohmann_json)
-if(NOT nlohmann_json_FOUND)
+if(EXTLIB_FROM_SUBMODULES)
+  add_subdirectory(deps/eigen)
+  add_subdirectory(deps/fmt)
   add_subdirectory(deps/nlohmann-json)
+  add_subdirectory(deps/range-v3)
+else()
+  find_package(Eigen3 REQUIRED NO_MODULE)
+  find_package(fmt REQUIRED)
+  find_package(nlohmann_json REQUIRED)
+  find_package(Range-v3 REQUIRED)
 endif()
 find_package(TBB REQUIRED)
 find_package(ZLIB REQUIRED)
 find_package(HighFive REQUIRED)
+
+add_subdirectory(deps/cli11)
 
 find_path(RANDOM123_INCLUDE_PATH NAMES Random123/threefry.h)
 add_library(Random123 INTERFACE IMPORTED)
@@ -78,8 +82,6 @@ endif()
 if(ENABLE_DEBUG)
   add_definitions(-DDEBUG_OUT)
 endif()
-
-add_subdirectory(${CMAKE_SOURCE_DIR}/deps/cli11)
 
 add_library(${PROJECT_NAME}_deps INTERFACE)
 target_link_libraries(${PROJECT_NAME}_deps

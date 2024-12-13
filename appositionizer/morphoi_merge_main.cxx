@@ -599,6 +599,7 @@ MorphologiesMetadata gather_metadata(const MorphologiesMetadata& local_metadata,
 
     MPI_Datatype mpi_metadata_type;
     MPI_Type_contiguous(sizeof(MorphologyMetadata), MPI_BYTE, &mpi_metadata_type);
+    MPI_Type_commit(&mpi_metadata_type);
 
     if (comm_rank == 0) {
         auto offsets = std::vector<int>(comm_size);

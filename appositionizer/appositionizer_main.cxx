@@ -153,7 +153,7 @@ int main(int argc, char* argv[]) {
     auto threads = tbb::global_control::active_value(tbb::global_control::max_allowed_parallelism);
 
     mpi::rank0::info(
-        "Apposition Detector {} started with MPI size {}, {} thread(s) (coordinates data type: {})",
+        "Appositionizer {} started with MPI size {}, {} thread(s) (coordinates data type: {})",
         APPOSITIONIZER_VERSION_STRING,
         mpi::size(),
         threads,
@@ -226,7 +226,7 @@ int main(int argc, char* argv[]) {
 
     if (needs_custom_comm) {
         mpi::rank0::info("More MPI ranks than cells detected.");
-        mpi::rank0::info("Apposition Detector {} runs with effective MPI size {} and {} threads.",
+        mpi::rank0::info("Appositionizer {} runs with effective MPI size {} and {} threads.",
                          APPOSITIONIZER_VERSION_STRING,
                          mpi::size(comm_world),
                          threads);
