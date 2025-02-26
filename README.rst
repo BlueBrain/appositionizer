@@ -1,3 +1,7 @@
+.. warning::
+   The Blue Brain Project concluded in December 2024, so development has ceased under the BlueBrain GitHub organization.
+   Future development will take place at: https://github.com/openbraininstitute/appositionizer
+
 .. image:: doc/source/_static/banner.jpg
    :alt: A nice banner for appositionizer
 
